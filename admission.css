@@ -1,0 +1,14 @@
+/* Admission Section */
+.admission {
+    padding: 50px;
+    text-align: center;
+}
+
+.admission h2 {
+    margin-bottom: 20px;
+    color: #0044cc;
+}
+
+.admission p {
+    margin-bottom: 20px;
+}

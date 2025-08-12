@@ -1,0 +1,53 @@
+/* Academics Section */
+.academics {
+    padding: 50px;
+    background-color: #e6f7ff;
+}
+
+.academic-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #0044cc;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+/* Academic Cards */
+.academic-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.academic-cards .card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+}
+
+.academic-cards .card h3 {
+    color: #004085;
+    margin-bottom: 10px;
+}
+
+.academic-cards .card p {
+    font-size: 0.9em;
+    color: #666;
+}

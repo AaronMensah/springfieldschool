@@ -1,0 +1,11 @@
+/* About Section */
+.about {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    color: #0044cc;
+}

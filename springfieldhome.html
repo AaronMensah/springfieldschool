@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Springfield School</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="images/springfield-logo.png" alt="Springfield School Logo" class="logo">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="springfieldhome.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Academics.html">Academics</a></li>
+                <li><a href="Admission.html">Admission</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Springfield School</h1>
+            <p>Your Future Begins Here</p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+        <div class="hero-image">
+            <img src="images.jfif" alt="Student and Teacher" class="classroom-image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Springfield School</h2>
+        <p>At Springfield School, we foster an environment where learning and faith go hand-in-hand. Our dedicated teachers, nurturing community, and comprehensive curriculum provide students with a strong foundation for life-long success.</p>
+    </section>
+
+    <!-- Academics Section -->
+    <section id="academics" class="academics">
+        <h2>Our Academics</h2>
+        <div class="academic-cards">
+            <div class="card">
+                <h3>Primary Education</h3>
+                <p>We offer a rigorous primary education program that builds a strong foundation in literacy, numeracy, and critical thinking.</p>
+            </div>
+            <div class="card">
+                <h3>Secondary Education</h3>
+                <p>Our secondary education equips students with advanced knowledge, preparing them for university and future careers.</p>
+            </div>
+            <div class="card">
+                <h3>Extracurricular Activities</h3>
+                <p>We provide a wide variety of clubs, sports, and creative programs to enhance our students' development.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Section -->
+    <section id="admission" class="admission">
+        <h2>Join Springfield School</h2>
+        <p>Be a part of an enriching learning environment. Apply to Springfield School and start your educational journey with us.</p>
+        <a href="#" class="cta-button">Apply Now</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Submit" class="cta-button">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Springfield School | All Rights Reserved</p>
+        <div class="social-links">
+            <a href="https://facebook.com" class="social-icon">Facebook</a>
+            <a href="https://twitter.com" class="social-icon">Twitter</a>
+            <a href="https://instagram.com" class="social-icon">Instagram</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
